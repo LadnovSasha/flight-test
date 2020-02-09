@@ -13,7 +13,7 @@ WITH fl AS (SELECT DISTINCT ON (price, origin, dest)
     airline,
     duration,
     distance
-    FROM flights where origin = 'AA' order by price
+    FROM flights where origin = $1 order by price
 )
 SELECT DISTINCT ON (fl.origin, fl.dest)
     fl.*,
@@ -25,3 +25,9 @@ LEFT JOIN airports a ON fl.dest = a."code"
 LEFT JOIN airlines air ON fl.airline = air.abbreviation
 ```
 
+### Development
+
+Project uses node 10.x
+To start project: run `npm start`
+
+Project written for AWS infrastructure (DB configuration is missing)
