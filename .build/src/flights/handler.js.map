@@ -1,0 +1,1 @@
+{"version":3,"file":"handler.js","sourceRoot":"","sources":["../../../src/flights/handler.ts"],"names":[],"mappings":";;AAAA,yDAAkD;AAClD,MAAM,QAAQ,GAAG,IAAI,0BAAgB,EAAE,CAAC;AAExC,MAAM,CAAC,OAAO,GAAG;IACb,UAAU,CAAC,KAAK,EAAE,GAAG;QACjB,OAAO,QAAQ,CAAC,UAAU,CAAC,KAAK,EAAE,GAAG,CAAC,CAAC;IAC3C,CAAC;CACJ,CAAA"}

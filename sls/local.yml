@@ -1,0 +1,4 @@
+Resources: ""
+environment:
+  API_VERSION: v1
+  DATABASE_URL: "postgres://postgres:postgres@localhost:5432/fitment"
