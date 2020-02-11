@@ -25,7 +25,7 @@ FROM fl
 LEFT JOIN airports a ON fl.dest = a."code"
 LEFT JOIN airlines air ON fl.airline = air.abbreviation
 ```
-### Get fastest flight
+### Get fastest airline
 
 ```
 Select
