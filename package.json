@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "serverless offline start --stage=local"
+    "start": "serverless offline start --stage=local",
+    "migrate:up": "serverless invoke local --stage=local -f up"
   },
   "repository": {
     "type": "git",
