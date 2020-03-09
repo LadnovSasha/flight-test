@@ -1,5 +1,3 @@
-## Question 2 answers:
-
 ### Get fastest flight between airports
 
 `Select * from flights where origin = $1 and dest = $2 order by duration ASC LIMIT 1; `
